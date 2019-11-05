@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nome do curso"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:id="@+id/nomeCurso"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnEdit"
+        android:layout_marginRight="8dp" />
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:tint="@color/colorPrimaryDark"
+        android:id="@+id/btnEdit"
+        android:src="@android:drawable/ic_menu_edit"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/btnDelete"
+        android:layout_marginRight="8dp" />
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:tint="@color/colorAccent"
+        android:id="@+id/btnDelete"
+        android:src="@android:drawable/ic_delete"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
