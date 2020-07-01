@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondProject</string>
+    <string name="text">Digite seu nome</string>
+    <string name="titulo">CADASTRO DE NOMES</string>
+    <string name="edit"></string>
+    <string name="botao">Enviar</string>
+</resources>

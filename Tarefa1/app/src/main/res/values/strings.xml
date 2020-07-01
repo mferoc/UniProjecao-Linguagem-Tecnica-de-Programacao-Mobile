@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarefa1</string>
+    <string name="label1">Nota 1</string>
+    <string name="label2">Nota 2</string>
+    <string name="edit"></string>
+    <string name="botao">Calcular Média</string>
+</resources>

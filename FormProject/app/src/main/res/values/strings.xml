@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FormProject</string>
+    <string name="titulo">FORMULÁRIO</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="entrada"></string>
+    <string name="linguagem">Linguagem preferida</string>
+    <string name="fluente">Fluente em inglês?</string>
+    <string name="liguagemA">Java</string>
+    <string name="liguagemB">C</string>
+    <string name="liguagemC">Javascript</string>
+    <string name="rbuttonS">Sim</string>
+    <string name="rbuttonN">Não</string>
+    <string name="botao">ENVIAR</string>
+</resources>
